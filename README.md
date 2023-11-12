@@ -1,0 +1,2 @@
+# sesame_for_pc
+SesameをWindows環境で操作するGUIスクリプト

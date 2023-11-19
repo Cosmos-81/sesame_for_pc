@@ -8,7 +8,8 @@ class MySesameGUI:
 
     def __init__(self, master):
         self.master = master
-        master.title("MySesame4")
+        master.title("MySesame")
+        master.resizable(False, False) 
 
         self.unlock_button = tk.Button(master, text="解錠", command=self.unlock, width=15, height=2)
         self.unlock_button.grid(row=0, column=0)
